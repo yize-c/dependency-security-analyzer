@@ -165,3 +165,28 @@ dependency-security-analyzer/
 - **Interactive prompts break automation.** The report asks "search for a CVE? (y/n)" at the end. In Docker, Jenkins and Kubernetes nobody can type an answer, so the program now treats "no input" as "n".
 - **Kubernetes would not start** in Docker Desktop. The cause was that WSL was using cgroup v1, which new Kubernetes versions no longer accept. Switching WSL to cgroup v2 fixed it.
 - **Git Bash on Windows rewrites paths** like `/var/...` in Docker commands. Adding `MSYS_NO_PATHCONV=1` in front of the command stops this.
+
+## Real-World Test Results
+
+Tested in October 2026 against three open-source Python projects. Input files are in [`real_tests/`](real_tests/).
+
+| Project | Type | Packages | Outdated | Unique Vulnerabilities | High-Risk Packages (score ≥ 70) | Scan Time |
+|---|---|---|---|---|---|---|
+| [PyGoat](https://github.com/adeyosemanputra/pygoat) | Intentionally vulnerable Django app (OWASP) | 34 | 31 | 139 | 9 | 12.4 s |
+| [DVPWA](https://github.com/anxolerd/dvpwa) | Intentionally vulnerable Python web app | 18 | 17 | 55 | 3 | 7.0 s |
+| [Freqtrade](https://github.com/freqtrade/freqtrade) | Actively maintained trading bot | 45 | 12 | 0 | 0 | 22.7 s |
+| **Total** | | **97** | **60** | **194** | **12** | **~42 s** |
+
+The maintained project returned no known vulnerabilities, which shows the scanner does not raise false alarms on up-to-date dependencies.
+
+### Bugs found and fixed through testing
+- **Post-release versions:** `python-dateutil==2.9.0.post0` was parsed as `2.9.0.` and crashed the version check. Replaced the regex parser with `packaging.requirements`, which also handles extras, environment markers, and inline comments.
+- **Duplicate vulnerabilities:** OSV can return the same issue under both a PYSEC and a GHSA ID, which doubled the count and inflated risk scores. Results are now deduplicated by CVE ID.
+
+### Known limitation
+About a third of findings show `UNKNOWN` severity because the scorer currently reads only `CVSS_V3`. Supporting `CVSS_V4` and GHSA severity labels is planned.
+
+### Reproduce
+```bash
+python main.py --file real_tests/pygoat.txt --output json > real_tests/pygoat.json
+```

@@ -1,0 +1,608 @@
+[
+  {
+    "name": "aiohttp-jinja2",
+    "operator": "==",
+    "current_version": "1.1.0",
+    "latest_version": "1.6",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "aiohttp-session",
+    "operator": "==",
+    "current_version": "2.7.0",
+    "latest_version": "2.12.1",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "aiohttp",
+    "operator": "==",
+    "current_version": "3.5.3",
+    "latest_version": "3.14.3",
+    "cves": [
+      {
+        "id": "GHSA-2fqr-mr3j-6wp8",
+        "cve_id": "CVE-2026-54279",
+        "ghsa_id": "GHSA-2fqr-mr3j-6wp8",
+        "summary": "aiohttp: Host-Only Cookies Become Domain Cookies After CookieJar Persistence",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-2vrm-gr82-f7m5",
+        "cve_id": "CVE-2026-34514",
+        "ghsa_id": "GHSA-2vrm-gr82-f7m5",
+        "summary": "AIOHTTP has CRLF injection through multipart part content type header construction",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-3wq7-rqq7-wx6j",
+        "cve_id": "CVE-2026-34517",
+        "ghsa_id": "GHSA-3wq7-rqq7-wx6j",
+        "summary": "AIOHTTP has late size enforcement for non-file multipart fields causes memory DoS",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-45c4-8wx5-qw6w",
+        "cve_id": "CVE-2023-37276",
+        "ghsa_id": "GHSA-45c4-8wx5-qw6w",
+        "summary": "aiohttp.web.Application vulnerable to HTTP request smuggling via llhttp HTTP request parser",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-4fvr-rgm6-gqmc",
+        "cve_id": "CVE-2026-54273",
+        "ghsa_id": "GHSA-4fvr-rgm6-gqmc",
+        "summary": "aiohttp: HTTP/1 Pipelined Requests Queue Without Limit",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-4m7w-qmgq-4wj5",
+        "cve_id": "CVE-2026-54275",
+        "ghsa_id": "GHSA-4m7w-qmgq-4wj5",
+        "summary": "aiohttp: TLS Server Hostname Override Is Ignored When Reusing HTTPS Connections",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-54jq-c3m8-4m76",
+        "cve_id": "CVE-2025-69226",
+        "ghsa_id": "GHSA-54jq-c3m8-4m76",
+        "summary": "AIOHTTP vulnerable to brute-force leak of internal static \ufb01le path components",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-5h86-8mv2-jq9f",
+        "cve_id": "CVE-2024-23334",
+        "ghsa_id": "GHSA-5h86-8mv2-jq9f",
+        "summary": "aiohttp is vulnerable to directory traversal",
+        "severity": "MEDIUM",
+        "cvss_score": 5.9
+      },
+      {
+        "id": "GHSA-5m98-qgg9-wh84",
+        "cve_id": "CVE-2024-30251",
+        "ghsa_id": "GHSA-5m98-qgg9-wh84",
+        "summary": "aiohttp vulnerable to Denial of Service when trying to parse malformed POST requests",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-63hf-3vf5-4wqf",
+        "cve_id": "CVE-2026-34520",
+        "ghsa_id": "GHSA-63hf-3vf5-4wqf",
+        "summary": "AIOHTTP's C parser (llhttp) accepts null bytes and control characters in response header values - header injection/security bypass",
+        "severity": "CRITICAL",
+        "cvss_score": 9.1
+      },
+      {
+        "id": "GHSA-63hw-fmq6-xxg2",
+        "cve_id": "CVE-2026-54277",
+        "ghsa_id": "GHSA-63hw-fmq6-xxg2",
+        "summary": "aiohttp: C HTTP Parser Bypasses max_line_size for Fragmented Lines",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-69f9-5gxw-wvc2",
+        "cve_id": "CVE-2025-69224",
+        "ghsa_id": "GHSA-69f9-5gxw-wvc2",
+        "summary": "AIOHTTP's unicode processing of header values could cause parsing discrepancies",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-6jhg-hg63-jvvf",
+        "cve_id": "CVE-2025-69228",
+        "ghsa_id": "GHSA-6jhg-hg63-jvvf",
+        "summary": "AIOHTTP vulnerable to  denial of service through large payloads",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-6mq8-rvhq-8wgg",
+        "cve_id": "CVE-2025-69223",
+        "ghsa_id": "GHSA-6mq8-rvhq-8wgg",
+        "summary": "AIOHTTP's HTTP Parser auto_decompress feature is vulnerable to zip bomb",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-7gpw-8wmc-pm8g",
+        "cve_id": "CVE-2024-27306",
+        "ghsa_id": "GHSA-7gpw-8wmc-pm8g",
+        "summary": "aiohttp Cross-site Scripting vulnerability on index pages for static file handling",
+        "severity": "MEDIUM",
+        "cvss_score": 6.1
+      },
+      {
+        "id": "GHSA-8495-4g3g-x7pr",
+        "cve_id": "CVE-2024-52304",
+        "ghsa_id": "GHSA-8495-4g3g-x7pr",
+        "summary": "aiohttp allows request smuggling due to incorrect parsing of chunk extensions",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-8qpw-xqxj-h4r2",
+        "cve_id": "CVE-2024-23829",
+        "ghsa_id": "GHSA-8qpw-xqxj-h4r2",
+        "summary": "aiohttp's HTTP parser (the python one, not llhttp) still overly lenient about separators",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5
+      },
+      {
+        "id": "GHSA-9548-qrrj-x5pj",
+        "cve_id": "CVE-2025-53643",
+        "ghsa_id": "GHSA-9548-qrrj-x5pj",
+        "summary": " AIOHTTP is vulnerable to HTTP Request/Response Smuggling through incorrect parsing of chunked trailer sections",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-966j-vmvw-g2g9",
+        "cve_id": "CVE-2026-34518",
+        "ghsa_id": "GHSA-966j-vmvw-g2g9",
+        "summary": "AIOHTTP leaks Cookie and Proxy-Authorization headers on cross-origin redirect",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-9x8q-7h8h-wcw9",
+        "cve_id": "CVE-2026-54280",
+        "ghsa_id": "GHSA-9x8q-7h8h-wcw9",
+        "summary": "aiohttp: Payload Response Resources Are Not Closed After Mid-Body Disconnect",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-c427-h43c-vf67",
+        "cve_id": "CVE-2026-34525",
+        "ghsa_id": "GHSA-c427-h43c-vf67",
+        "summary": "AIOHTTP accepts duplicate Host headers",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-cq5v-8q36-5273",
+        "cve_id": "CVE-2026-69244",
+        "ghsa_id": "GHSA-cq5v-8q36-5273",
+        "summary": "AIOHTTP: Out-of-bounds heap read in C HTTP response parser error path (malformed chunked response)",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-fh55-r93g-j68g",
+        "cve_id": "CVE-2025-69230",
+        "ghsa_id": "GHSA-fh55-r93g-j68g",
+        "summary": "AIOHTTP Vulnerable to Cookie Parser Warning Storm",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-g3cq-j2xw-wf74",
+        "cve_id": "CVE-2026-54278",
+        "ghsa_id": "GHSA-g3cq-j2xw-wf74",
+        "summary": "aiohttp: Unread Compressed Request Bodies Bypass client_max_size During Cleanup",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-g84x-mcqj-x9qq",
+        "cve_id": "CVE-2025-69229",
+        "ghsa_id": "GHSA-g84x-mcqj-x9qq",
+        "summary": "AIOHTTP vulnerable to DoS through chunked messages",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-gfw2-4jvh-wgfg",
+        "cve_id": "CVE-2023-47627",
+        "ghsa_id": "GHSA-gfw2-4jvh-wgfg",
+        "summary": "AIOHTTP has problems in HTTP parser (the python one, not llhttp)",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-hcc4-c3v8-rx92",
+        "cve_id": "CVE-2026-34513",
+        "ghsa_id": "GHSA-hcc4-c3v8-rx92",
+        "summary": "AIOHTTP Affected by Denial of Service (DoS) via Unbounded DNS Cache in TCPConnector",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-hg6j-4rv6-33pg",
+        "cve_id": "CVE-2026-47265",
+        "ghsa_id": "GHSA-hg6j-4rv6-33pg",
+        "summary": "AIOHTTP is vulnerable to cross-origin redirect with per-request cookies",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-hpj7-wq8m-9hgp",
+        "cve_id": "CVE-2026-54276",
+        "ghsa_id": "GHSA-hpj7-wq8m-9hgp",
+        "summary": "aiohttp: DigestAuthMiddleware Applies Credentials to Cross-Origin Redirect Challenges",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-jg22-mg44-37j8",
+        "cve_id": "CVE-2026-34993",
+        "ghsa_id": "GHSA-jg22-mg44-37j8",
+        "summary": "AIOHTTP is Vulnerable to Deserialization of Untrusted Data",
+        "severity": "MEDIUM",
+        "cvss_score": 6.4
+      },
+      {
+        "id": "GHSA-jj3x-wxrx-4x23",
+        "cve_id": "CVE-2025-69227",
+        "ghsa_id": "GHSA-jj3x-wxrx-4x23",
+        "summary": "AIOHTTP vulnerable to DoS when bypassing asserts",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-m5qp-6w8w-w647",
+        "cve_id": "CVE-2026-34516",
+        "ghsa_id": "GHSA-m5qp-6w8w-w647",
+        "summary": "AIOHTTP has a Multipart Header Size Bypass",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-m6qw-4cw2-hm4m",
+        "cve_id": "CVE-2026-50269",
+        "ghsa_id": "GHSA-m6qw-4cw2-hm4m",
+        "summary": "aiohttp: CRLF injection in multipart headers",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-mfx4-hv73-q22v",
+        "cve_id": "CVE-2026-69243",
+        "ghsa_id": "GHSA-mfx4-hv73-q22v",
+        "summary": "AIOHTTP: HTTP request smuggling via WebSocket upgrade",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-mq44-7p77-q5h7",
+        "cve_id": "CVE-2026-59881",
+        "ghsa_id": "GHSA-mq44-7p77-q5h7",
+        "summary": "AIOHTTP: WebSocket client accepts compressed frames without negotiated permessage-deflate",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-mqqc-3gqh-h2x8",
+        "cve_id": "CVE-2025-69225",
+        "ghsa_id": "GHSA-mqqc-3gqh-h2x8",
+        "summary": "AIOHTTP has unicode match groups in regexes for ASCII protocol elements",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-mwh4-6h8g-pg8w",
+        "cve_id": "CVE-2026-34519",
+        "ghsa_id": "GHSA-mwh4-6h8g-pg8w",
+        "summary": "AIOHTTP has HTTP response splitting via \\r in reason phrase",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-p998-jp59-783m",
+        "cve_id": "CVE-2026-34515",
+        "ghsa_id": "GHSA-p998-jp59-783m",
+        "summary": "AIOHTTP affected by UNC SSRF/NTLMv2 Credential Theft/Local File Read in static resource handler on Windows",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-pjjw-qhg8-p2p9",
+        "cve_id": null,
+        "ghsa_id": "GHSA-pjjw-qhg8-p2p9",
+        "summary": "aiohttp has vulnerable dependency that is vulnerable to request smuggling",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-q3qx-c6g2-7pw2",
+        "cve_id": "CVE-2023-49081",
+        "ghsa_id": "GHSA-q3qx-c6g2-7pw2",
+        "summary": "aiohttp's ClientSession is vulnerable to CRLF injection via version",
+        "severity": "HIGH",
+        "cvss_score": 7.2
+      },
+      {
+        "id": "GHSA-qvrw-v9rv-5rjx",
+        "cve_id": "CVE-2023-49082",
+        "ghsa_id": "GHSA-qvrw-v9rv-5rjx",
+        "summary": "aiohttp's ClientSession is vulnerable to CRLF injection via method",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-v6wp-4m6f-gcjg",
+        "cve_id": "CVE-2021-21330",
+        "ghsa_id": "GHSA-v6wp-4m6f-gcjg",
+        "summary": "`aiohttp` Open Redirect vulnerability (`normalize_path_middleware` middleware)",
+        "severity": "LOW",
+        "cvss_score": 3.1
+      },
+      {
+        "id": "GHSA-w2fm-2cpv-w7v5",
+        "cve_id": "CVE-2026-22815",
+        "ghsa_id": "GHSA-w2fm-2cpv-w7v5",
+        "summary": "aiohttp allows unlimited trailer headers, leading to possible uncapped memory usage",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-xcgm-r5h9-7989",
+        "cve_id": "CVE-2026-54274",
+        "ghsa_id": "GHSA-xcgm-r5h9-7989",
+        "summary": "aiohttp: Incomplete websocket frame payloads bypass memory limits",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-xx9p-xxvh-7g8j",
+        "cve_id": "CVE-2023-47641",
+        "ghsa_id": "GHSA-xx9p-xxvh-7g8j",
+        "summary": "Aiohttp has inconsistent interpretation of `Content-Length` vs. `Transfer-Encoding` differing in C and Python fallbacks",
+        "severity": "LOW",
+        "cvss_score": 3.4
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "aiopg",
+    "operator": "==",
+    "current_version": "0.15.0",
+    "latest_version": "1.4.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "aioredis",
+    "operator": "==",
+    "current_version": "1.2.0",
+    "latest_version": "2.0.1",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "async-timeout",
+    "operator": "==",
+    "current_version": "3.0.1",
+    "latest_version": "5.0.1",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "attrs",
+    "operator": "==",
+    "current_version": "18.2.0",
+    "latest_version": "26.1.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "chardet",
+    "operator": "==",
+    "current_version": "3.0.4",
+    "latest_version": "7.6.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "hiredis",
+    "operator": "==",
+    "current_version": "0.3.1",
+    "latest_version": "3.4.2",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "idna",
+    "operator": "==",
+    "current_version": "2.8",
+    "latest_version": "3.20",
+    "cves": [
+      {
+        "id": "GHSA-65pc-fj4g-8rjx",
+        "cve_id": "CVE-2026-45409",
+        "ghsa_id": "GHSA-65pc-fj4g-8rjx",
+        "summary": "Internationalized Domain Names in Applications (IDNA): Specially crafted inputs to idna.encode() can bypass CVE-2024-3651 fix",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-jjg7-2v4v-x38h",
+        "cve_id": "CVE-2024-3651",
+        "ghsa_id": "GHSA-jjg7-2v4v-x38h",
+        "summary": "Internationalized Domain Names in Applications (IDNA) vulnerable to denial of service from specially crafted inputs to idna.encode",
+        "severity": "MEDIUM",
+        "cvss_score": 6.2
+      }
+    ],
+    "score": 50.0,
+    "is_outdated": true
+  },
+  {
+    "name": "jinja2",
+    "operator": "==",
+    "current_version": "2.10",
+    "latest_version": "3.1.6",
+    "cves": [
+      {
+        "id": "GHSA-462w-v97r-4m45",
+        "cve_id": "CVE-2019-10906",
+        "ghsa_id": "GHSA-462w-v97r-4m45",
+        "summary": "Jinja2 sandbox escape via string formatting",
+        "severity": "HIGH",
+        "cvss_score": 8.6
+      },
+      {
+        "id": "GHSA-cpwx-vrp4-4pq7",
+        "cve_id": "CVE-2025-27516",
+        "ghsa_id": "GHSA-cpwx-vrp4-4pq7",
+        "summary": "Jinja2 vulnerable to sandbox breakout through attr filter selecting format method",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-g3rq-g295-4j3m",
+        "cve_id": "CVE-2020-28493",
+        "ghsa_id": "GHSA-g3rq-g295-4j3m",
+        "summary": "Regular Expression Denial of Service (ReDoS) in Jinja2",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-h5c8-rqwp-cp95",
+        "cve_id": "CVE-2024-22195",
+        "ghsa_id": "GHSA-h5c8-rqwp-cp95",
+        "summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+        "severity": "MEDIUM",
+        "cvss_score": 5.4
+      },
+      {
+        "id": "GHSA-h75v-3vvj-5mfj",
+        "cve_id": "CVE-2024-34064",
+        "ghsa_id": "GHSA-h75v-3vvj-5mfj",
+        "summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
+        "severity": "MEDIUM",
+        "cvss_score": 5.4
+      },
+      {
+        "id": "GHSA-q2x7-8rv6-6q7h",
+        "cve_id": "CVE-2024-56326",
+        "ghsa_id": "GHSA-q2x7-8rv6-6q7h",
+        "summary": "Jinja has a sandbox breakout through indirect reference to format method",
+        "severity": "HIGH",
+        "cvss_score": 7.8
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "markupsafe",
+    "operator": "==",
+    "current_version": "1.1.0",
+    "latest_version": "3.0.4",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "multidict",
+    "operator": "==",
+    "current_version": "4.5.2",
+    "latest_version": "7.0.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "psycopg2",
+    "operator": "==",
+    "current_version": "2.7.6.1",
+    "latest_version": "2.9.13",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "pyyaml",
+    "operator": "==",
+    "current_version": "3.13",
+    "latest_version": "6.0.3",
+    "cves": [
+      {
+        "id": "GHSA-8q59-q68h-6hv4",
+        "cve_id": "CVE-2020-14343",
+        "ghsa_id": "GHSA-8q59-q68h-6hv4",
+        "summary": "Improper Input Validation in PyYAML",
+        "severity": "CRITICAL",
+        "cvss_score": 9.8
+      },
+      {
+        "id": "GHSA-rprw-h62v-c2w7",
+        "cve_id": "CVE-2017-18342",
+        "ghsa_id": "GHSA-rprw-h62v-c2w7",
+        "summary": "PyYAML insecurely deserializes YAML strings leading to arbitrary code execution",
+        "severity": "CRITICAL",
+        "cvss_score": 9.8
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "trafaret-config",
+    "operator": "==",
+    "current_version": "2.0.2",
+    "latest_version": "2.0.2",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "trafaret",
+    "operator": "==",
+    "current_version": "1.2.0",
+    "latest_version": "2.1.1",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "yarl",
+    "operator": "==",
+    "current_version": "1.3.0",
+    "latest_version": "1.25.1",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  }
+]

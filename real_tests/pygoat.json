@@ -1,0 +1,1434 @@
+[
+  {
+    "name": "argon2-cffi",
+    "operator": "==",
+    "current_version": "21.3.0",
+    "latest_version": "25.1.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "argon2-cffi-bindings",
+    "operator": "==",
+    "current_version": "21.2.0",
+    "latest_version": "26.1.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "asgiref",
+    "operator": "==",
+    "current_version": "3.6.0",
+    "latest_version": "3.12.1",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "certifi",
+    "operator": "==",
+    "current_version": "2022.12.7",
+    "latest_version": "2026.7.22",
+    "cves": [
+      {
+        "id": "GHSA-248v-346w-9cwc",
+        "cve_id": "CVE-2024-39689",
+        "ghsa_id": "GHSA-248v-346w-9cwc",
+        "summary": "Certifi removes GLOBALTRUST root certificate",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-xqr8-7jwr-rhp7",
+        "cve_id": "CVE-2023-37920",
+        "ghsa_id": "GHSA-xqr8-7jwr-rhp7",
+        "summary": "Removal of e-Tugra root certificate",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      }
+    ],
+    "score": 55.0,
+    "is_outdated": true
+  },
+  {
+    "name": "cffi",
+    "operator": "==",
+    "current_version": "1.15.1",
+    "latest_version": "2.1.1",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "charset-normalizer",
+    "operator": "==",
+    "current_version": "3.0.1",
+    "latest_version": "3.5.2",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "cryptography",
+    "operator": "==",
+    "current_version": "39.0.1",
+    "latest_version": "50.0.2",
+    "cves": [
+      {
+        "id": "GHSA-3ww4-gg4f-jr7f",
+        "cve_id": "CVE-2023-50782",
+        "ghsa_id": "GHSA-3ww4-gg4f-jr7f",
+        "summary": "Python Cryptography package vulnerable to Bleichenbacher timing oracle attack",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-537c-gmf6-5ccf",
+        "cve_id": null,
+        "ghsa_id": "GHSA-537c-gmf6-5ccf",
+        "summary": "Vulnerable OpenSSL included in cryptography wheels",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-5cpq-8wj7-hf2v",
+        "cve_id": null,
+        "ghsa_id": "GHSA-5cpq-8wj7-hf2v",
+        "summary": "Vulnerable OpenSSL included in cryptography wheels",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-6vqw-3v5j-54x4",
+        "cve_id": "CVE-2024-26130",
+        "ghsa_id": "GHSA-6vqw-3v5j-54x4",
+        "summary": "cryptography NULL pointer dereference with pkcs12.serialize_key_and_certificates when called with a non-matching certificate and private key and an hmac_hash override",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-9v9h-cgj8-h64p",
+        "cve_id": "CVE-2024-0727",
+        "ghsa_id": "GHSA-9v9h-cgj8-h64p",
+        "summary": "Null pointer dereference in PKCS12 parsing",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5
+      },
+      {
+        "id": "GHSA-h4gh-qq45-vh27",
+        "cve_id": null,
+        "ghsa_id": "GHSA-h4gh-qq45-vh27",
+        "summary": "pyca/cryptography has a vulnerable OpenSSL included in cryptography wheels",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-jfhm-5ghh-2f97",
+        "cve_id": "CVE-2023-49083",
+        "ghsa_id": "GHSA-jfhm-5ghh-2f97",
+        "summary": "cryptography vulnerable to NULL-dereference when loading PKCS7 certificates",
+        "severity": "MEDIUM",
+        "cvss_score": 5.9
+      },
+      {
+        "id": "GHSA-jm77-qphf-c4w8",
+        "cve_id": null,
+        "ghsa_id": "GHSA-jm77-qphf-c4w8",
+        "summary": "pyca/cryptography's wheels include vulnerable OpenSSL",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-m959-cc7f-wv43",
+        "cve_id": "CVE-2026-34073",
+        "ghsa_id": "GHSA-m959-cc7f-wv43",
+        "summary": "cryptography has incomplete DNS name constraint enforcement on peer names",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-r6ph-v2qm-q3c2",
+        "cve_id": "CVE-2026-26007",
+        "ghsa_id": "GHSA-r6ph-v2qm-q3c2",
+        "summary": "cryptography Vulnerable to a Subgroup Attack Due to Missing Subgroup Validation for SECT Curves",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-v8gr-m533-ghj9",
+        "cve_id": null,
+        "ghsa_id": "GHSA-v8gr-m533-ghj9",
+        "summary": "Vulnerable OpenSSL included in cryptography wheels",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "PYSEC-2026-3553",
+        "cve_id": "CVE-2026-69249",
+        "ghsa_id": "GHSA-jwv3-5hgf-82ww",
+        "summary": "python-cryptography: Duplicate self-signed intermediates can cause exponential path-building",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "PYSEC-2026-3554",
+        "cve_id": "CVE-2026-69248",
+        "ghsa_id": "GHSA-m2h6-j472-rp4c",
+        "summary": "python-cryptography verifier accepts wildcard DNS names allowing escape from permittedSubtrees",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "crispy-bootstrap4",
+    "operator": "==",
+    "current_version": "2022.1",
+    "latest_version": "2026.2",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "defusedxml",
+    "operator": "==",
+    "current_version": "0.7.1",
+    "latest_version": "0.7.1",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "dj-database-url",
+    "operator": "==",
+    "current_version": "0.5.0",
+    "latest_version": "3.1.2",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "Django",
+    "operator": "==",
+    "current_version": "4.2",
+    "latest_version": "6.1.1",
+    "cves": [
+      {
+        "id": "GHSA-2mcm-79hx-8fxw",
+        "cve_id": "CVE-2025-13473",
+        "ghsa_id": "GHSA-2mcm-79hx-8fxw",
+        "summary": "Django has Observable Timing Discrepancy",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-33mw-q7rj-mjwj",
+        "cve_id": "CVE-2025-14550",
+        "ghsa_id": "GHSA-33mw-q7rj-mjwj",
+        "summary": "Django has Inefficient Algorithmic Complexity",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-3h9f-r86x-qvjx",
+        "cve_id": "CVE-2026-48588",
+        "ghsa_id": "GHSA-3h9f-r86x-qvjx",
+        "summary": "Django: cache middleware may expose private responses when unrelated request cookies are present",
+        "severity": "LOW",
+        "cvss_score": 3.1
+      },
+      {
+        "id": "GHSA-4rrr-2h4v-f3j9",
+        "cve_id": "CVE-2026-1285",
+        "ghsa_id": "GHSA-4rrr-2h4v-f3j9",
+        "summary": "Django has Inefficient Algorithmic Complexity",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-5hgc-2vfp-mqvc",
+        "cve_id": "CVE-2024-45230",
+        "ghsa_id": "GHSA-5hgc-2vfp-mqvc",
+        "summary": "Django vulnerable to denial-of-service attack via the urlize() and urlizetrunc() template filters",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-5mf9-h53q-7mhq",
+        "cve_id": "CVE-2026-33033",
+        "ghsa_id": "GHSA-5mf9-h53q-7mhq",
+        "summary": "Django has potential DoS via MultiPartParser through crafted multipart uploads",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5
+      },
+      {
+        "id": "GHSA-6426-9fv3-65x8",
+        "cve_id": "CVE-2026-1312",
+        "ghsa_id": "GHSA-6426-9fv3-65x8",
+        "summary": "Django has an SQL Injection issue",
+        "severity": "MEDIUM",
+        "cvss_score": 5.4
+      },
+      {
+        "id": "GHSA-6w2r-r2m5-xq5w",
+        "cve_id": "CVE-2025-57833",
+        "ghsa_id": "GHSA-6w2r-r2m5-xq5w",
+        "summary": "Django is subject to SQL injection through its column aliases",
+        "severity": "HIGH",
+        "cvss_score": 7.1
+      },
+      {
+        "id": "GHSA-795c-9xpc-xw6g",
+        "cve_id": "CVE-2024-41990",
+        "ghsa_id": "GHSA-795c-9xpc-xw6g",
+        "summary": "Django vulnerable to a denial-of-service attack",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-7h4p-27mh-hmrw",
+        "cve_id": "CVE-2023-41164",
+        "ghsa_id": "GHSA-7h4p-27mh-hmrw",
+        "summary": "Django Denial of service vulnerability in django.utils.encoding.uri_to_iri",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-7xr5-9hcq-chf9",
+        "cve_id": "CVE-2025-48432",
+        "ghsa_id": "GHSA-7xr5-9hcq-chf9",
+        "summary": "Django Improper Output Neutralization for Logs vulnerability",
+        "severity": "MEDIUM",
+        "cvss_score": 4.0
+      },
+      {
+        "id": "GHSA-8498-2h75-472j",
+        "cve_id": "CVE-2024-53907",
+        "ghsa_id": "GHSA-8498-2h75-472j",
+        "summary": "Django denial-of-service in django.utils.html.strip_tags()",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-8cjm-8mp7-r2xf",
+        "cve_id": "CVE-2026-8404",
+        "ghsa_id": "GHSA-8cjm-8mp7-r2xf",
+        "summary": "Django: UpdateCacheMiddleware may disclose cached responses due to case-sensitive Cache-Control handling",
+        "severity": "LOW",
+        "cvss_score": 3.1
+      },
+      {
+        "id": "GHSA-8j24-cjrq-gr2m",
+        "cve_id": "CVE-2025-32873",
+        "ghsa_id": "GHSA-8j24-cjrq-gr2m",
+        "summary": "Django has a denial-of-service possibility in strip_tags()",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-8p8v-wh79-9r56",
+        "cve_id": "CVE-2026-25673",
+        "ghsa_id": "GHSA-8p8v-wh79-9r56",
+        "summary": "Django vulnerable to Uncontrolled Resource Consumption",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-8qcx-xf44-272x",
+        "cve_id": "CVE-2026-53878",
+        "ghsa_id": "GHSA-8qcx-xf44-272x",
+        "summary": "Django: DomainNameValidator permits newline characters that may enable HTTP header injection",
+        "severity": "MEDIUM",
+        "cvss_score": 6.1
+      },
+      {
+        "id": "GHSA-923m-gv2p-w5qp",
+        "cve_id": "CVE-2026-48587",
+        "ghsa_id": "GHSA-923m-gv2p-w5qp",
+        "summary": "Django: has_vary_header may expose cached responses when Vary values contain whitespace",
+        "severity": "LOW",
+        "cvss_score": 3.1
+      },
+      {
+        "id": "GHSA-933h-hp56-hf7m",
+        "cve_id": "CVE-2026-33034",
+        "ghsa_id": "GHSA-933h-hp56-hf7m",
+        "summary": "Django: SGI requests with a missing or understated `Content-Length` header could bypass the `DATA_UPLOAD_MAX_MEMORY_SIZE` limit",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-9jmf-237g-qf46",
+        "cve_id": "CVE-2024-39330",
+        "ghsa_id": "GHSA-9jmf-237g-qf46",
+        "summary": "Django Path Traversal vulnerability",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-crhf-3pfg-w68w",
+        "cve_id": "CVE-2026-53877",
+        "ghsa_id": "GHSA-crhf-3pfg-w68w",
+        "summary": " Django: GDALRaster may over-read heap memory when constructed from bytes",
+        "severity": "MEDIUM",
+        "cvss_score": 4.8
+      },
+      {
+        "id": "GHSA-f6f8-9mx6-9mx2",
+        "cve_id": "CVE-2024-39614",
+        "ghsa_id": "GHSA-f6f8-9mx6-9mx2",
+        "summary": "Django vulnerable to Denial of Service",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-frmv-pr5f-9mcr",
+        "cve_id": "CVE-2025-64459",
+        "ghsa_id": "GHSA-frmv-pr5f-9mcr",
+        "summary": "Django vulnerable to SQL injection via _connector keyword argument in QuerySet and Q objects.",
+        "severity": "CRITICAL",
+        "cvss_score": 9.1
+      },
+      {
+        "id": "GHSA-gvg8-93h5-g6qq",
+        "cve_id": "CVE-2026-1287",
+        "ghsa_id": "GHSA-gvg8-93h5-g6qq",
+        "summary": "Django has an SQL Injection issue",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-h7pc-vwp9-298g",
+        "cve_id": "CVE-2026-6873",
+        "ghsa_id": "GHSA-h7pc-vwp9-298g",
+        "summary": "Django: signed cookies are vulnerable to salt namespace collisions",
+        "severity": "LOW",
+        "cvss_score": 3.1
+      },
+      {
+        "id": "GHSA-h8gc-pgj2-vjm3",
+        "cve_id": "CVE-2023-43665",
+        "ghsa_id": "GHSA-h8gc-pgj2-vjm3",
+        "summary": "Django Denial-of-service in django.utils.text.Truncator",
+        "severity": "MEDIUM",
+        "cvss_score": 5.9
+      },
+      {
+        "id": "GHSA-hpr9-3m2g-3j9p",
+        "cve_id": "CVE-2025-59681",
+        "ghsa_id": "GHSA-hpr9-3m2g-3j9p",
+        "summary": "Django vulnerable to SQL injection in column aliases",
+        "severity": "HIGH",
+        "cvss_score": 7.1
+      },
+      {
+        "id": "GHSA-jh3w-4vvf-mjgr",
+        "cve_id": "CVE-2023-36053",
+        "ghsa_id": "GHSA-jh3w-4vvf-mjgr",
+        "summary": "Django has regular expression denial of service vulnerability in EmailValidator/URLValidator",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-jh75-99hh-qvx9",
+        "cve_id": "CVE-2024-41989",
+        "ghsa_id": "GHSA-jh75-99hh-qvx9",
+        "summary": "Django memory consumption vulnerability",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-m9g8-fxxm-xg86",
+        "cve_id": "CVE-2024-53908",
+        "ghsa_id": "GHSA-m9g8-fxxm-xg86",
+        "summary": "Django SQL injection in HasKey(lhs, rhs) on Oracle",
+        "severity": "CRITICAL",
+        "cvss_score": 9.8
+      },
+      {
+        "id": "GHSA-mjgh-79qc-68w3",
+        "cve_id": "CVE-2026-25674",
+        "ghsa_id": "GHSA-mjgh-79qc-68w3",
+        "summary": "Django has a Race Condition vulnerability",
+        "severity": "LOW",
+        "cvss_score": 3.7
+      },
+      {
+        "id": "GHSA-mmwr-2jhp-mc7j",
+        "cve_id": "CVE-2026-4292",
+        "ghsa_id": "GHSA-mmwr-2jhp-mc7j",
+        "summary": "Django vulnerable to privilege abuse in ModelAdmin.list_editable",
+        "severity": "LOW",
+        "cvss_score": 2.7
+      },
+      {
+        "id": "GHSA-mvfq-ggxm-9mc5",
+        "cve_id": "CVE-2026-3902",
+        "ghsa_id": "GHSA-mvfq-ggxm-9mc5",
+        "summary": "Django vulnerable to ASGI header spoofing via underscore/hyphen conflation",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-mwm9-4648-f68q",
+        "cve_id": "CVE-2026-1207",
+        "ghsa_id": "GHSA-mwm9-4648-f68q",
+        "summary": "Django has an SQL Injection issue",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-p3fp-8748-vqfq",
+        "cve_id": "CVE-2025-26699",
+        "ghsa_id": "GHSA-p3fp-8748-vqfq",
+        "summary": "Django vulnerable to Allocation of Resources Without Limits or Throttling",
+        "severity": "MEDIUM",
+        "cvss_score": 5.0
+      },
+      {
+        "id": "GHSA-pv4p-cwwg-4rph",
+        "cve_id": "CVE-2024-42005",
+        "ghsa_id": "GHSA-pv4p-cwwg-4rph",
+        "summary": "Django SQL injection vulnerability",
+        "severity": "CRITICAL",
+        "cvss_score": 9.1
+      },
+      {
+        "id": "GHSA-pwjp-ccjc-ghwg",
+        "cve_id": "CVE-2026-4277",
+        "ghsa_id": "GHSA-pwjp-ccjc-ghwg",
+        "summary": "Django vulnerable to privilege abuse in GenericInlineModelAdmin",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-q238-5cxm-5c9h",
+        "cve_id": "CVE-2026-15830",
+        "ghsa_id": "GHSA-q238-5cxm-5c9h",
+        "summary": "Django GeoDjango vulnerable to denial of service through deeply nested geometry collections",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-q95w-c7qg-hrff",
+        "cve_id": "CVE-2025-59682",
+        "ghsa_id": "GHSA-q95w-c7qg-hrff",
+        "summary": "Django vulnerable to partial directory traversal via archives",
+        "severity": "LOW",
+        "cvss_score": 3.1
+      },
+      {
+        "id": "GHSA-qcgg-j2x8-h9g8",
+        "cve_id": "CVE-2024-56374",
+        "ghsa_id": "GHSA-qcgg-j2x8-h9g8",
+        "summary": "Django has a potential denial-of-service vulnerability in IPv6 validation",
+        "severity": "MEDIUM",
+        "cvss_score": 5.8
+      },
+      {
+        "id": "GHSA-qg2p-9jwr-mmqf",
+        "cve_id": "CVE-2024-38875",
+        "ghsa_id": "GHSA-qg2p-9jwr-mmqf",
+        "summary": "Django vulnerable to Denial of Service",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-qmf9-6jqf-j8fq",
+        "cve_id": "CVE-2023-46695",
+        "ghsa_id": "GHSA-qmf9-6jqf-j8fq",
+        "summary": "Django potential denial of service vulnerability in UsernameField on Windows",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-qw25-v68c-qjf3",
+        "cve_id": "CVE-2025-64458",
+        "ghsa_id": "GHSA-qw25-v68c-qjf3",
+        "summary": "Django has a denial-of-service vulnerability in HttpResponseRedirect and HttpResponsePermanentRedirect on Windows",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-r3xc-prgr-mg9p",
+        "cve_id": "CVE-2023-31047",
+        "ghsa_id": "GHSA-r3xc-prgr-mg9p",
+        "summary": "Django bypasses validation when using one form field to upload multiple files",
+        "severity": "CRITICAL",
+        "cvss_score": 9.8
+      },
+      {
+        "id": "GHSA-r836-hh6v-rg5g",
+        "cve_id": "CVE-2024-41991",
+        "ghsa_id": "GHSA-r836-hh6v-rg5g",
+        "summary": "Django vulnerable to denial-of-service attack",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-rqw2-ghq9-44m7",
+        "cve_id": "CVE-2025-13372",
+        "ghsa_id": "GHSA-rqw2-ghq9-44m7",
+        "summary": "Django is vulnerable to SQL injection in column aliases",
+        "severity": "MEDIUM",
+        "cvss_score": 4.3
+      },
+      {
+        "id": "GHSA-rrqc-c2jx-6jgv",
+        "cve_id": "CVE-2024-45231",
+        "ghsa_id": "GHSA-rrqc-c2jx-6jgv",
+        "summary": "Django allows enumeration of user e-mail addresses",
+        "severity": "LOW",
+        "cvss_score": 3.7
+      },
+      {
+        "id": "GHSA-vm8q-m57g-pff3",
+        "cve_id": "CVE-2024-27351",
+        "ghsa_id": "GHSA-vm8q-m57g-pff3",
+        "summary": "Regular expression denial-of-service in Django",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-vrcr-9hj9-jcg6",
+        "cve_id": "CVE-2025-64460",
+        "ghsa_id": "GHSA-vrcr-9hj9-jcg6",
+        "summary": "Django is vulnerable to DoS via XML serializer text extraction",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-wvqv-fj8w-qmhm",
+        "cve_id": "CVE-2026-15307",
+        "ghsa_id": "GHSA-wvqv-fj8w-qmhm",
+        "summary": "Django GeoDjango spatial lookups allow file writes and outbound requests through GDAL raster parsing",
+        "severity": "HIGH",
+        "cvss_score": 8.8
+      },
+      {
+        "id": "GHSA-x7q2-wr7g-xqmf",
+        "cve_id": "CVE-2024-39329",
+        "ghsa_id": "GHSA-x7q2-wr7g-xqmf",
+        "summary": "Django vulnerable to user enumeration attack",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-xxj9-f6rv-m3x4",
+        "cve_id": "CVE-2024-24680",
+        "ghsa_id": "GHSA-xxj9-f6rv-m3x4",
+        "summary": "Django denial-of-service attack in the intcomma template filter",
+        "severity": "MEDIUM",
+        "cvss_score": 5.9
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "django-allauth",
+    "operator": "==",
+    "current_version": "0.52.0",
+    "latest_version": "65.19.7",
+    "cves": [
+      {
+        "id": "GHSA-2jpr-83rg-v67j",
+        "cve_id": "CVE-2026-27982",
+        "ghsa_id": "GHSA-2jpr-83rg-v67j",
+        "summary": "django-allauth has an open redirect vulnerability",
+        "severity": "MEDIUM",
+        "cvss_score": 4.3
+      },
+      {
+        "id": "GHSA-8m3c-c723-h4p4",
+        "cve_id": "CVE-2025-65431",
+        "ghsa_id": "GHSA-8m3c-c723-h4p4",
+        "summary": "django-allauth's Okta and NetIQ implementations used a mutable identifier for authorization decisions",
+        "severity": "MEDIUM",
+        "cvss_score": 5.4
+      },
+      {
+        "id": "GHSA-qhmc-3mvr-f2j4",
+        "cve_id": "CVE-2025-65430",
+        "ghsa_id": "GHSA-qhmc-3mvr-f2j4",
+        "summary": "django-allauth does not reject access tokens for inactive users",
+        "severity": "MEDIUM",
+        "cvss_score": 5.4
+      }
+    ],
+    "score": 65.0,
+    "is_outdated": true
+  },
+  {
+    "name": "django-crispy-forms",
+    "operator": "==",
+    "current_version": "2.3",
+    "latest_version": "2.7",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "django-heroku",
+    "operator": "==",
+    "current_version": "0.3.1",
+    "latest_version": "0.3.1",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "gunicorn",
+    "operator": "==",
+    "current_version": "23.0.0",
+    "latest_version": "26.2.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "idna",
+    "operator": "==",
+    "current_version": "3.4",
+    "latest_version": "3.20",
+    "cves": [
+      {
+        "id": "GHSA-65pc-fj4g-8rjx",
+        "cve_id": "CVE-2026-45409",
+        "ghsa_id": "GHSA-65pc-fj4g-8rjx",
+        "summary": "Internationalized Domain Names in Applications (IDNA): Specially crafted inputs to idna.encode() can bypass CVE-2024-3651 fix",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-jjg7-2v4v-x38h",
+        "cve_id": "CVE-2024-3651",
+        "ghsa_id": "GHSA-jjg7-2v4v-x38h",
+        "summary": "Internationalized Domain Names in Applications (IDNA) vulnerable to denial of service from specially crafted inputs to idna.encode",
+        "severity": "MEDIUM",
+        "cvss_score": 6.2
+      }
+    ],
+    "score": 50.0,
+    "is_outdated": true
+  },
+  {
+    "name": "mccabe",
+    "operator": "==",
+    "current_version": "0.6.1",
+    "latest_version": "0.7.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "oauthlib",
+    "operator": "==",
+    "current_version": "3.2.2",
+    "latest_version": "4.0.0",
+    "cves": [
+      {
+        "id": "GHSA-hj66-6f7g-4r5v",
+        "cve_id": "CVE-2026-49264",
+        "ghsa_id": "GHSA-hj66-6f7g-4r5v",
+        "summary": "Oauthlib : Unsafe JSONP callback injection in RevocationEndpoint allows arbitrary JavaScript response generation",
+        "severity": "MEDIUM",
+        "cvss_score": 6.1
+      },
+      {
+        "id": "GHSA-xpv3-w29h-x7cv",
+        "cve_id": "CVE-2026-49265",
+        "ghsa_id": "GHSA-xpv3-w29h-x7cv",
+        "summary": "Oauthlib: Timing Attack Vulnerability in PKCE code_verifier Comparison (CWE-208)",
+        "severity": "MEDIUM",
+        "cvss_score": 6.8
+      }
+    ],
+    "score": 50.0,
+    "is_outdated": true
+  },
+  {
+    "name": "Pillow",
+    "operator": "==",
+    "current_version": "9.4.0",
+    "latest_version": "12.3.0",
+    "cves": [
+      {
+        "id": "GHSA-3f63-hfp8-52jq",
+        "cve_id": "CVE-2023-50447",
+        "ghsa_id": "GHSA-3f63-hfp8-52jq",
+        "summary": "Arbitrary Code Execution in Pillow",
+        "severity": "HIGH",
+        "cvss_score": 8.1
+      },
+      {
+        "id": "GHSA-44wm-f244-xhp3",
+        "cve_id": "CVE-2024-28219",
+        "ghsa_id": "GHSA-44wm-f244-xhp3",
+        "summary": "Pillow buffer overflow vulnerability",
+        "severity": "MEDIUM",
+        "cvss_score": 6.7
+      },
+      {
+        "id": "GHSA-45hq-cxwh-f6vc",
+        "cve_id": "CVE-2026-55379",
+        "ghsa_id": "GHSA-45hq-cxwh-f6vc",
+        "summary": "Pillow `BdfFontFile`: `Image.new()` called without `_decompression_bomb_check()` \u2014 bomb protection bypass via font loading",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-4x4j-2g7c-83w6",
+        "cve_id": "CVE-2026-55798",
+        "ghsa_id": "GHSA-4x4j-2g7c-83w6",
+        "summary": "Pillow: WindowsViewer.get_command() OS command injection via unescaped shell path",
+        "severity": "MEDIUM",
+        "cvss_score": 4.5
+      },
+      {
+        "id": "GHSA-5x94-69rx-g8h2",
+        "cve_id": "CVE-2026-54060",
+        "ghsa_id": "GHSA-5x94-69rx-g8h2",
+        "summary": "Pillow: `FontFile.compile()`: `Image.new()` called without `_decompression_bomb_check()`",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-62p4-gmf7-7g93",
+        "cve_id": "CVE-2026-54058",
+        "ghsa_id": "GHSA-62p4-gmf7-7g93",
+        "summary": "Pillow: Out-of-bounds read via attacker-controlled row stride on Pillow's mmap path (McIdas AREA files)",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-6r8x-57c9-28j4",
+        "cve_id": "CVE-2026-59199",
+        "ghsa_id": "GHSA-6r8x-57c9-28j4",
+        "summary": "Pillow: Heap out-of-bounds write `Image.paste()` / `Image.crop()` via signed coordinate overflow",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-8ghj-p4vj-mr35",
+        "cve_id": "CVE-2023-44271",
+        "ghsa_id": "GHSA-8ghj-p4vj-mr35",
+        "summary": "Pillow Denial of Service vulnerability",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-8v84-f9pq-wr9x",
+        "cve_id": "CVE-2026-54059",
+        "ghsa_id": "GHSA-8v84-f9pq-wr9x",
+        "summary": "Pillow `PcfFontFile._load_bitmaps()`: `Image.frombytes()` called without `_decompression_bomb_check()` \u2014 bomb protection bypass via PCF font loading",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-9hw9-ch79-4vh6",
+        "cve_id": "CVE-2026-59205",
+        "ghsa_id": "GHSA-9hw9-ch79-4vh6",
+        "summary": "Pillow: Controlled heap out-of-bounds write in Pillow `ImageCmsTransform.apply()` via output mode mismatch",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-fj7v-r99m-22gq",
+        "cve_id": "CVE-2026-59198",
+        "ghsa_id": "GHSA-fj7v-r99m-22gq",
+        "summary": "Pillow TGA RLE encoder can serialize up to ~57 KB of adjacent heap data into generated images",
+        "severity": "MEDIUM",
+        "cvss_score": 6.5
+      },
+      {
+        "id": "GHSA-j7hp-h8jx-5ppr",
+        "cve_id": "CVE-2023-5129",
+        "ghsa_id": "GHSA-j7hp-h8jx-5ppr",
+        "summary": "libwebp: OOB write in BuildHuffmanTable",
+        "severity": "HIGH",
+        "cvss_score": 8.8
+      },
+      {
+        "id": "GHSA-jjj6-mw9f-p565",
+        "cve_id": "CVE-2026-59200",
+        "ghsa_id": "GHSA-jjj6-mw9f-p565",
+        "summary": "Pillow: Decompression Bomb DoS via PdfParser.PdfStream.decode()",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-phj9-mv4w-65pm",
+        "cve_id": "CVE-2026-55380",
+        "ghsa_id": "GHSA-phj9-mv4w-65pm",
+        "summary": "Pillow `GdImageFile._open()`: image dimensions accepted without `_decompression_bomb_check()`",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-r73j-pqj5-w3x7",
+        "cve_id": "CVE-2026-42310",
+        "ghsa_id": "GHSA-r73j-pqj5-w3x7",
+        "summary": "Pillow has a PDF Parsing Trailer Infinite Loop (DoS)",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5
+      },
+      {
+        "id": "GHSA-vjc4-5qp5-m44j",
+        "cve_id": "CVE-2026-59204",
+        "ghsa_id": "GHSA-vjc4-5qp5-m44j",
+        "summary": "Pillow JPEG2000 tiled decode retains a growing scratch buffer and can be used for denial of service",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-wjx4-4jcj-g98j",
+        "cve_id": "CVE-2026-42308",
+        "ghsa_id": "GHSA-wjx4-4jcj-g98j",
+        "summary": "Pillow has an integer overflow when processing fonts",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5
+      },
+      {
+        "id": "GHSA-xj96-63gp-2gmr",
+        "cve_id": "CVE-2026-59197",
+        "ghsa_id": "GHSA-xj96-63gp-2gmr",
+        "summary": "Pillow: Heap out-of-bounds write in `ImageFilter.RankFilter` via integer overflow in `ImagingExpand`",
+        "severity": "HIGH",
+        "cvss_score": 8.2
+      },
+      {
+        "id": "PYSEC-2023-175",
+        "cve_id": null,
+        "ghsa_id": "PYSEC-2023-175",
+        "summary": "No summary",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "psycopg2",
+    "operator": "==",
+    "current_version": "2.9.3",
+    "latest_version": "2.9.13",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "pycodestyle",
+    "operator": "==",
+    "current_version": "2.7.0",
+    "latest_version": "2.15.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "pycparser",
+    "operator": "==",
+    "current_version": "2.21",
+    "latest_version": "3.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "pyflakes",
+    "operator": "==",
+    "current_version": "2.3.1",
+    "latest_version": "4.0.2",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "PyJWT",
+    "operator": "==",
+    "current_version": "2.4.0",
+    "latest_version": "2.15.1",
+    "cves": [
+      {
+        "id": "GHSA-2gx3-rcp4-g85q",
+        "cve_id": "CVE-2026-101917",
+        "ghsa_id": "GHSA-2gx3-rcp4-g85q",
+        "summary": "PyJWT: PyJWKClient still amplifies unauthenticated JWKS fetches on unknown kid values (incomplete fix of CVE-2026-48524)",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-42vr-xj54-vc7v",
+        "cve_id": "CVE-2026-101918",
+        "ghsa_id": "GHSA-42vr-xj54-vc7v",
+        "summary": "PyJWT: Unauthenticated RecursionError DoS in pre-verification payload parse (PyJWKClient.get_signing_key_from_jwt / verify_signature=False)",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-752w-5fwx-jx9f",
+        "cve_id": "CVE-2026-32597",
+        "ghsa_id": "GHSA-752w-5fwx-jx9f",
+        "summary": "PyJWT accepts unknown `crit` header extensions",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-993g-76c3-p5m4",
+        "cve_id": "CVE-2026-48522",
+        "ghsa_id": "GHSA-993g-76c3-p5m4",
+        "summary": "PyJWKClient: missing scheme allowlist enables CVE-2024-21643-class SSRF + token forgery via file://, ftp://, data: schemes",
+        "severity": "MEDIUM",
+        "cvss_score": 4.2
+      },
+      {
+        "id": "GHSA-9v7f-9g4p-ffgj",
+        "cve_id": "CVE-2026-102267",
+        "ghsa_id": "GHSA-9v7f-9g4p-ffgj",
+        "summary": "PyJWT: PyJWKClient follows redirects when fetching JWKS",
+        "severity": "HIGH",
+        "cvss_score": 7.4
+      },
+      {
+        "id": "GHSA-ffc3-869f-jxw9",
+        "cve_id": "CVE-2026-102268",
+        "ghsa_id": "GHSA-ffc3-869f-jxw9",
+        "summary": "PyJWT: Asymmetric-PEM detection bypass: whitespace/line-ending-mutated public keys skip the HS/asymmetric confusion guard",
+        "severity": "CRITICAL",
+        "cvss_score": 9.1
+      },
+      {
+        "id": "GHSA-fhv5-28vv-h8m8",
+        "cve_id": "CVE-2026-48524",
+        "ghsa_id": "GHSA-fhv5-28vv-h8m8",
+        "summary": "PyJWKClient unbounded JWKS endpoint requests via attacker-controlled kid values (DoS)",
+        "severity": "LOW",
+        "cvss_score": 3.7
+      },
+      {
+        "id": "GHSA-hxm8-2xgr-2p9m",
+        "cve_id": "CVE-2026-102269",
+        "ghsa_id": "GHSA-hxm8-2xgr-2p9m",
+        "summary": "PyJWT: Non-canonical signature segments enable raw-token revocation bypass",
+        "severity": "MEDIUM",
+        "cvss_score": 4.8
+      },
+      {
+        "id": "GHSA-jwrc-g2q2-pq5p",
+        "cve_id": "CVE-2026-102270",
+        "ghsa_id": "GHSA-jwrc-g2q2-pq5p",
+        "summary": "PyJWT: ReDoS vulnerability when calling the `is_pem_format` function.",
+        "severity": "MEDIUM",
+        "cvss_score": 4.4
+      },
+      {
+        "id": "GHSA-p4g4-x82p-q773",
+        "cve_id": "CVE-2026-102271",
+        "ghsa_id": "GHSA-p4g4-x82p-q773",
+        "summary": "PyJWT: Public keys in DER form are accepted as HMAC secrets, bypassing the CVE-2022-29217 guard",
+        "severity": "HIGH",
+        "cvss_score": 7.4
+      },
+      {
+        "id": "GHSA-xgmm-8j9v-c9wx",
+        "cve_id": "CVE-2026-48526",
+        "ghsa_id": "GHSA-xgmm-8j9v-c9wx",
+        "summary": "PyJWT: Public-key JWK accepted as HMAC secret enables forged HS256 tokens when mixed families are allowed",
+        "severity": "HIGH",
+        "cvss_score": 7.4
+      },
+      {
+        "id": "PYSEC-2025-183",
+        "cve_id": "CVE-2025-45768",
+        "ghsa_id": "PYSEC-2025-183",
+        "summary": "No summary",
+        "severity": "HIGH",
+        "cvss_score": 7.0
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "python3-openid",
+    "operator": "==",
+    "current_version": "3.2.0",
+    "latest_version": "3.2.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "pytz",
+    "operator": "==",
+    "current_version": "2020.1",
+    "latest_version": "2026.5",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "PyYAML",
+    "operator": "==",
+    "current_version": "5.1",
+    "latest_version": "6.0.3",
+    "cves": [
+      {
+        "id": "GHSA-3pqx-4fqf-j49f",
+        "cve_id": "CVE-2019-20477",
+        "ghsa_id": "GHSA-3pqx-4fqf-j49f",
+        "summary": "Deserialization of Untrusted Data in PyYAML",
+        "severity": "CRITICAL",
+        "cvss_score": 9.8
+      },
+      {
+        "id": "GHSA-6757-jp84-gxfx",
+        "cve_id": "CVE-2020-1747",
+        "ghsa_id": "GHSA-6757-jp84-gxfx",
+        "summary": "Improper Input Validation in PyYAML",
+        "severity": "CRITICAL",
+        "cvss_score": 9.8
+      },
+      {
+        "id": "GHSA-8q59-q68h-6hv4",
+        "cve_id": "CVE-2020-14343",
+        "ghsa_id": "GHSA-8q59-q68h-6hv4",
+        "summary": "Improper Input Validation in PyYAML",
+        "severity": "CRITICAL",
+        "cvss_score": 9.8
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "requests",
+    "operator": "==",
+    "current_version": "2.28.2",
+    "latest_version": "2.34.2",
+    "cves": [
+      {
+        "id": "GHSA-9hjg-9r4m-mvj7",
+        "cve_id": "CVE-2024-47081",
+        "ghsa_id": "GHSA-9hjg-9r4m-mvj7",
+        "summary": "Requests vulnerable to .netrc credentials leak via malicious URLs",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-9wx4-h78v-vm56",
+        "cve_id": "CVE-2024-35195",
+        "ghsa_id": "GHSA-9wx4-h78v-vm56",
+        "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
+        "severity": "MEDIUM",
+        "cvss_score": 5.6
+      },
+      {
+        "id": "GHSA-gc5v-m9x4-r6x2",
+        "cve_id": "CVE-2026-25645",
+        "ghsa_id": "GHSA-gc5v-m9x4-r6x2",
+        "summary": "Requests has Insecure Temp File Reuse in its extract_zipped_paths() utility function",
+        "severity": "MEDIUM",
+        "cvss_score": 4.4
+      },
+      {
+        "id": "GHSA-j8r2-6x86-q33q",
+        "cve_id": "CVE-2023-32681",
+        "ghsa_id": "GHSA-j8r2-6x86-q33q",
+        "summary": "Unintended leak of Proxy-Authorization header in requests",
+        "severity": "MEDIUM",
+        "cvss_score": 6.1
+      }
+    ],
+    "score": 80.0,
+    "is_outdated": true
+  },
+  {
+    "name": "requests-oauthlib",
+    "operator": "==",
+    "current_version": "1.3.1",
+    "latest_version": "2.0.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "sqlparse",
+    "operator": "==",
+    "current_version": "0.3.1",
+    "latest_version": "0.6.0",
+    "cves": [
+      {
+        "id": "GHSA-27jp-wm6q-gp25",
+        "cve_id": null,
+        "ghsa_id": "GHSA-27jp-wm6q-gp25",
+        "summary": "sqlparse: formatting list of tuples leads to denial of service",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-2m57-hf25-phgg",
+        "cve_id": "CVE-2024-4340",
+        "ghsa_id": "GHSA-2m57-hf25-phgg",
+        "summary": "sqlparse parsing heavily nested list leads to Denial of Service",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-3496-9g83-7v6x",
+        "cve_id": "CVE-2026-59894",
+        "ghsa_id": "GHSA-3496-9g83-7v6x",
+        "summary": "sqlparse: Generated Python and PHP snippets allow SQL string breakout through unescaped backslashes",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-cfqr-cjx5-5jcm",
+        "cve_id": "CVE-2026-84305",
+        "ghsa_id": "GHSA-cfqr-cjx5-5jcm",
+        "summary": "sqlparse: Reindentation of tuple lists causes near-cap quadratic CPU consumption",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-f2ff-p2ww-7p4p",
+        "cve_id": "CVE-2026-71491",
+        "ghsa_id": "GHSA-f2ff-p2ww-7p4p",
+        "summary": "sqlparse: Quadratic O(n\u00b2) DoS in group_comments",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-prg7-hcfm-mfcr",
+        "cve_id": "CVE-2026-59893",
+        "ghsa_id": "GHSA-prg7-hcfm-mfcr",
+        "summary": "sqlparse: Inefficient Regex Handling of Dollar-Quoted SQL Literals Leads to ReDoS (Denial of Service)",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-pwgv-4x5q-6m9f",
+        "cve_id": "CVE-2026-54284",
+        "ghsa_id": "GHSA-pwgv-4x5q-6m9f",
+        "summary": "sqlparse: TokenList.__init__ materializes O(subtree) value per group, causing CPU DoS before depth/token caps trigger",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-rrm6-wvj7-cwh2",
+        "cve_id": "CVE-2023-30608",
+        "ghsa_id": "GHSA-rrm6-wvj7-cwh2",
+        "summary": "sqlparse contains a regular expression that is vulnerable to Regular Expression Denial of Service",
+        "severity": "MEDIUM",
+        "cvss_score": 5.5
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "urllib3",
+    "operator": "==",
+    "current_version": "1.26.9",
+    "latest_version": "2.8.0",
+    "cves": [
+      {
+        "id": "GHSA-2xpw-w6gg-jr37",
+        "cve_id": "CVE-2025-66471",
+        "ghsa_id": "GHSA-2xpw-w6gg-jr37",
+        "summary": "urllib3 streaming API improperly handles highly compressed data",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-34jh-p97f-mpxf",
+        "cve_id": "CVE-2024-37891",
+        "ghsa_id": "GHSA-34jh-p97f-mpxf",
+        "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects",
+        "severity": "MEDIUM",
+        "cvss_score": 4.4
+      },
+      {
+        "id": "GHSA-38jv-5279-wg99",
+        "cve_id": "CVE-2026-21441",
+        "ghsa_id": "GHSA-38jv-5279-wg99",
+        "summary": "Decompression-bomb safeguards bypassed when following HTTP redirects (streaming API)",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-8988-9cw3-xx77",
+        "cve_id": "CVE-2026-97687",
+        "ghsa_id": "GHSA-8988-9cw3-xx77",
+        "summary": "urllib3: HTTPS proxy TLS configuration may be ignored or overridden",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-g4mx-q9vg-27p4",
+        "cve_id": "CVE-2023-45803",
+        "ghsa_id": "GHSA-g4mx-q9vg-27p4",
+        "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
+        "severity": "MEDIUM",
+        "cvss_score": 4.2
+      },
+      {
+        "id": "GHSA-gm62-xv2j-4w53",
+        "cve_id": "CVE-2025-66418",
+        "ghsa_id": "GHSA-gm62-xv2j-4w53",
+        "summary": "urllib3 allows an unbounded number of links in the decompression chain",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-pq67-6m6q-mj2v",
+        "cve_id": "CVE-2025-50181",
+        "ghsa_id": "GHSA-pq67-6m6q-mj2v",
+        "summary": "urllib3 redirects are not disabled when retries are disabled on PoolManager instantiation",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-qccp-gfcp-xxvc",
+        "cve_id": "CVE-2026-44431",
+        "ghsa_id": "GHSA-qccp-gfcp-xxvc",
+        "summary": "urllib3: Sensitive headers forwarded across origins in proxied low-level redirects",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-v845-jxx5-vc9f",
+        "cve_id": "CVE-2023-43804",
+        "ghsa_id": "GHSA-v845-jxx5-vc9f",
+        "summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
+        "severity": "MEDIUM",
+        "cvss_score": 5.9
+      },
+      {
+        "id": "GHSA-vxq7-64xx-v4gw",
+        "cve_id": "CVE-2026-97689",
+        "ghsa_id": "GHSA-vxq7-64xx-v4gw",
+        "summary": "urllib3: HTTPResponse.stream()/read_chunked() buffers an unbounded chunk-size line into memory",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "Werkzeug",
+    "operator": "==",
+    "current_version": "2.1.2",
+    "latest_version": "3.1.9",
+    "cves": [
+      {
+        "id": "GHSA-29vq-49wr-vm6x",
+        "cve_id": "CVE-2026-27199",
+        "ghsa_id": "GHSA-29vq-49wr-vm6x",
+        "summary": " Werkzeug safe_join() allows Windows special device names",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-2g68-c3qc-8985",
+        "cve_id": "CVE-2024-34069",
+        "ghsa_id": "GHSA-2g68-c3qc-8985",
+        "summary": "Werkzeug debugger vulnerable to remote execution when interacting with attacker controlled domain",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-87hc-h4r5-73f7",
+        "cve_id": "CVE-2026-21860",
+        "ghsa_id": "GHSA-87hc-h4r5-73f7",
+        "summary": " Werkzeug safe_join() allows Windows special device names with compound extensions",
+        "severity": "MEDIUM",
+        "cvss_score": 5.3
+      },
+      {
+        "id": "GHSA-f9vj-2wh5-fj8j",
+        "cve_id": "CVE-2024-49766",
+        "ghsa_id": "GHSA-f9vj-2wh5-fj8j",
+        "summary": "Werkzeug safe_join not safe on Windows",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-hgf8-39gv-g3f2",
+        "cve_id": "CVE-2025-66221",
+        "ghsa_id": "GHSA-hgf8-39gv-g3f2",
+        "summary": "Werkzeug safe_join() allows Windows special device names",
+        "severity": "UNKNOWN",
+        "cvss_score": 0.0
+      },
+      {
+        "id": "GHSA-hrfv-mqp8-q5rw",
+        "cve_id": "CVE-2023-46136",
+        "ghsa_id": "GHSA-hrfv-mqp8-q5rw",
+        "summary": "Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
+        "severity": "MEDIUM",
+        "cvss_score": 5.7
+      },
+      {
+        "id": "GHSA-px8h-6qxv-m22q",
+        "cve_id": "CVE-2023-23934",
+        "ghsa_id": "GHSA-px8h-6qxv-m22q",
+        "summary": "Incorrect parsing of nameless cookies leads to __Host- cookies bypass",
+        "severity": "LOW",
+        "cvss_score": 2.6
+      },
+      {
+        "id": "GHSA-q34m-jh98-gwm2",
+        "cve_id": "CVE-2024-49767",
+        "ghsa_id": "GHSA-q34m-jh98-gwm2",
+        "summary": "Werkzeug possible resource exhaustion when parsing file data in forms",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      },
+      {
+        "id": "GHSA-xg9f-g7g7-2323",
+        "cve_id": "CVE-2023-25577",
+        "ghsa_id": "GHSA-xg9f-g7g7-2323",
+        "summary": "High resource usage when parsing multipart form data with many fields",
+        "severity": "HIGH",
+        "cvss_score": 7.5
+      }
+    ],
+    "score": 100,
+    "is_outdated": true
+  },
+  {
+    "name": "whitenoise",
+    "operator": "==",
+    "current_version": "6.2.0",
+    "latest_version": "6.12.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "zipp",
+    "operator": "==",
+    "current_version": "3.8.0",
+    "latest_version": "4.1.1",
+    "cves": [
+      {
+        "id": "GHSA-jfmj-5v4g-7637",
+        "cve_id": "CVE-2024-5569",
+        "ghsa_id": "GHSA-jfmj-5v4g-7637",
+        "summary": "zipp Denial of Service vulnerability",
+        "severity": "MEDIUM",
+        "cvss_score": 6.2
+      }
+    ],
+    "score": 35.0,
+    "is_outdated": true
+  }
+]

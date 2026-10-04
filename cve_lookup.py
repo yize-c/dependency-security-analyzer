@@ -29,6 +29,7 @@ def query_osv(package_name: str, version: str) -> list[dict]:
         return []
 
     vulns = []
+    seen = set()
 
     for v in resp.json().get("vulns", []):
         severity = "UNKNOWN"
@@ -50,6 +51,10 @@ def query_osv(package_name: str, version: str) -> list[dict]:
             elif a.startswith("GHSA-"):
                 ghsa_id = a
 
+        key = cve_id or v.get("id")
+        if key in seen:
+            continue
+        seen.add(key)
         vulns.append({
             "id": v.get("id", "N/A"),
             "cve_id": cve_id,

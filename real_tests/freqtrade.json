@@ -1,0 +1,407 @@
+[
+  {
+    "name": "numpy",
+    "operator": "==",
+    "current_version": "2.4.6",
+    "latest_version": "2.5.3",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "pandas",
+    "operator": "==",
+    "current_version": "3.0.6",
+    "latest_version": "3.0.6",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "bottleneck",
+    "operator": "==",
+    "current_version": "1.6.0",
+    "latest_version": "1.6.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "numexpr",
+    "operator": "==",
+    "current_version": "2.14.2",
+    "latest_version": "2.14.2",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "scipy",
+    "operator": "==",
+    "current_version": "1.17.1",
+    "latest_version": "1.18.1",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "ft-pandas-ta",
+    "operator": "==",
+    "current_version": "0.3.16",
+    "latest_version": "0.3.16",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "ta-lib",
+    "operator": "==",
+    "current_version": "0.8.1",
+    "latest_version": "0.8.1",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "technical",
+    "operator": "==",
+    "current_version": "1.7.0",
+    "latest_version": "1.7.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "ccxt",
+    "operator": "==",
+    "current_version": "4.5.85",
+    "latest_version": "4.5.85",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "cryptography",
+    "operator": "==",
+    "current_version": "50.0.1",
+    "latest_version": "50.0.2",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "aiohttp",
+    "operator": "==",
+    "current_version": "3.14.3",
+    "latest_version": "3.14.3",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "SQLAlchemy",
+    "operator": "==",
+    "current_version": "2.0.54",
+    "latest_version": "2.1.3",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "python-telegram-bot",
+    "operator": "==",
+    "current_version": "22.8",
+    "latest_version": "22.8",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "httpx",
+    "operator": ">=",
+    "current_version": "0.24.1",
+    "latest_version": "0.28.1",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "humanize",
+    "operator": "==",
+    "current_version": "4.16.0",
+    "latest_version": "4.16.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "cachetools",
+    "operator": "==",
+    "current_version": "7.2.0",
+    "latest_version": "7.2.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "requests",
+    "operator": "==",
+    "current_version": "2.34.2",
+    "latest_version": "2.34.2",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "urllib3",
+    "operator": "==",
+    "current_version": "2.8.0",
+    "latest_version": "2.8.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "certifi",
+    "operator": "==",
+    "current_version": "2026.6.17",
+    "latest_version": "2026.7.22",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "jsonschema",
+    "operator": "==",
+    "current_version": "4.26.0",
+    "latest_version": "4.26.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "tabulate",
+    "operator": "==",
+    "current_version": "0.10.0",
+    "latest_version": "0.10.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "pycoingecko",
+    "operator": "==",
+    "current_version": "3.2.0",
+    "latest_version": "3.2.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "jinja2",
+    "operator": "==",
+    "current_version": "3.1.6",
+    "latest_version": "3.1.6",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "joblib",
+    "operator": "==",
+    "current_version": "1.6.0",
+    "latest_version": "1.6.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "cloudpickle",
+    "operator": "==",
+    "current_version": "3.1.2",
+    "latest_version": "3.1.2",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "rich",
+    "operator": "==",
+    "current_version": "15.0.0",
+    "latest_version": "15.0.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "pyarrow",
+    "operator": "==",
+    "current_version": "25.0.1",
+    "latest_version": "25.0.1",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "python-rapidjson",
+    "operator": "==",
+    "current_version": "1.25",
+    "latest_version": "1.25",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "orjson",
+    "operator": "==",
+    "current_version": "3.11.9",
+    "latest_version": "3.12.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "sdnotify",
+    "operator": "==",
+    "current_version": "0.3.2",
+    "latest_version": "0.3.2",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "fastapi",
+    "operator": "==",
+    "current_version": "0.141.1",
+    "latest_version": "0.142.2",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "pydantic",
+    "operator": "==",
+    "current_version": "2.13.5",
+    "latest_version": "2.13.5",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "uvicorn",
+    "operator": "==",
+    "current_version": "0.53.0",
+    "latest_version": "0.54.0",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "pyjwt",
+    "operator": "==",
+    "current_version": "2.15.0",
+    "latest_version": "2.15.1",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "aiofiles",
+    "operator": "==",
+    "current_version": "25.1.0",
+    "latest_version": "25.1.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "psutil",
+    "operator": "==",
+    "current_version": "7.2.2",
+    "latest_version": "7.2.2",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "questionary",
+    "operator": "==",
+    "current_version": "2.1.1",
+    "latest_version": "2.1.1",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "prompt-toolkit",
+    "operator": "==",
+    "current_version": "3.0.53",
+    "latest_version": "3.0.53",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "python-dateutil",
+    "operator": "==",
+    "current_version": "2.9.0.post0",
+    "latest_version": "2.9.0.post0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "pytz",
+    "operator": "==",
+    "current_version": "2026.3.post1",
+    "latest_version": "2026.5",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "schedule",
+    "operator": "==",
+    "current_version": "1.2.2",
+    "latest_version": "1.2.2",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "websockets",
+    "operator": "==",
+    "current_version": "17.1",
+    "latest_version": "17.2",
+    "cves": [],
+    "score": 20.0,
+    "is_outdated": true
+  },
+  {
+    "name": "janus",
+    "operator": "==",
+    "current_version": "2.0.0",
+    "latest_version": "2.0.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "ast-comments",
+    "operator": "==",
+    "current_version": "1.3.0",
+    "latest_version": "1.3.0",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  },
+  {
+    "name": "packaging",
+    "operator": "==",
+    "current_version": "26.3",
+    "latest_version": "26.3",
+    "cves": [],
+    "score": 0.0,
+    "is_outdated": false
+  }
+]
