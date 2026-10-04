@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: dep-scan
+spec:
+  backoffLimit: 0
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+        - name: dep-analyzer
+          image: dep-analyzer:latest
+          imagePullPolicy: Never
+          args: ["--file", "examples/vulnerable-requirements.txt"]
