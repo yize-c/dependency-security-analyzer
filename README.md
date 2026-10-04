@@ -22,3 +22,10 @@ pytest
 ```
 
 Unit tests cover the requirements parser, CVSS parsing and severity bands (boundary values), risk scoring, recommendations and CSV export. The OSV API is mocked, so tests run offline.
+
+## Run with Docker
+
+```
+docker build -t dep-analyzer .
+docker run --rm dep-analyzer --file examples/vulnerable-requirements.txt
+```

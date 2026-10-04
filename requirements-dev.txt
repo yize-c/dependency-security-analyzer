@@ -1,4 +1,2 @@
-requests
-packaging
-cvss
+-r requirements.txt
 pytest

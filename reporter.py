@@ -100,7 +100,11 @@ def print_report(packages: list[dict]):
 
     print("="*70)
 
-    user_input = input("\nDo you want to search for a specific CVE? (y/n): ").strip().lower()
+    try:
+        user_input = input("\nDo you want to search for a specific CVE? (y/n): ").strip().lower()
+    except EOFError:
+        user_input = "n"
+
 
     if user_input == "y":
         while True:
